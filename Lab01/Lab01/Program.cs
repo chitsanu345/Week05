@@ -10,6 +10,11 @@ namespace Lab01
     {
         static void Main(string[] args)
         {
+            int a = 0;
+            int b = 10;
+            b /= a;
+            Console.WriteLine(a);
+
         }
     }
 }
